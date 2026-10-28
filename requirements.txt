@@ -1,0 +1,13 @@
+# Core dependencies
+PyQt6>=6.6
+# QEMU — установка как системного пакета (не Python-библиотека).
+# Приложение вызывает qemu-system-x86_64 через subprocess.
+# Windows: https://www.qemu.org/download/
+# Linux:   apt install qemu-system-x86
+# macOS:   brew install qemu
+# (опциональная Python-обёртка — пока не используется)
+# qemu-python
+
+# Development dependencies (also tracked in pyproject.toml)
+ruff>=0.4
+pytest>=7.4
